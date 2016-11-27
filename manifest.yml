@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: rpitemperaturereport
+  host: rpitemperaturereport
+  disk_quota: 1024M
+  services:
+  - Internet of Things Platform-pi
+  - availability-monitoring-auto
